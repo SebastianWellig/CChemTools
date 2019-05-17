@@ -24,5 +24,5 @@ jobs:
 
       - script: |
           python -m pip install pycodestyle
-          python -m pycodestyle gic
+          python -m pycodestyle CChemTools
         displayName: 'Checking PEP8 for Python files with pycodestyle'
